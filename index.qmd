@@ -1,7 +1,5 @@
 ---
-title: "local"
+title: "NUMBAT Hackathon"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+This is a private website for Pelican enthusiasts only.
