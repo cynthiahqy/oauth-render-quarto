@@ -53,10 +53,9 @@ COPY email_list.txt /site_config/
 COPY _site /app/
 
 ENTRYPOINT ["/bin/oauth2-proxy", \
-            "--provider", "github", \
+            "--provider", "google", \
             "--upstream", "file:///app/#/", \
             "--authenticated-emails-file", "/site_config/email_list.txt", \
-            "--scope=user:email", \
             "--cookie-expire=0h0m30s", \
             "--session-cookie-minimal=true", \
             "--skip-provider-button=true"]
